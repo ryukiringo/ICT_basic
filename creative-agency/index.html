@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Meiji GIGA Project</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+	<link rel="shortcut icon" href="./img/logomeiji.png">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<script src="jquery-3.2.1.min.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+ <script>
+        $(function() {
+            $('#pagetop').click(function() {
+                $("html,body").animate({
+                    scrollTop: 0
+                }, "300")
+            });
+        });
+
+        $(function() {
+            $('#pagetop').hide();
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 0) {
+                    $('#pagetop').slideDown(600);
+                } else {
+                    $('#pagetop').slideUp(600);
+                }
+            });
+        });
+
+        $(function() {
+            $("#pagetop").mouseover(function() {
+                $(this).animate({
+                    bottom: "0px"
+                }, 300);
+            });
+            $("#pagetop").mouseout(function() {
+                $(this).animate({
+                    bottom: "-60px"
+                }, 300);
+            });
+        });
+    </script>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/10430011702.jpeg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="img/logomeiji.png" alt="logo">
+							<img class="logo-alt" src="img/logomeiji.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
+
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">Reasons</a></li>
+					<li><a href="#portfolio">Garalley</a></li>
+					<li><a href="#service">Advantages</a></li>
+				</ul>
+				<!-- /Main navigation -->
+
+			</div>
+		</nav>
+		<!-- /Nav -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">Meiji University GIGA project</h1>
+							<p class="white-text">この度、明治大学創立140年を記念して、Meiji University GIGA Projectを試行いたします。現在ある4キャンパスを一つにし、文理融合の、活気あふれるキャンパスを目指します。
+							</p>
+							<button class="white-btn">協賛する!</button>
+							<button class="main-btn">What's GIGA Project?</button>
+						</div>
+					</div>
+					<!-- /home content -->
+
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+	<!-- About -->
+	<div id="about" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Why we conduct GIGA project?</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-cogs"></i>
+						<h3>What's problem?</h3>
+						<p>現代では、多数の大学が文系学部と理系学部のキャンパスを分ける傾向にあります。</p>
+						<a href="#"></a>
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-magic"></i>
+						<h3>How to deal With?</h3>
+						<p>明治大学では、創立140周年を記念し、文理学部が融合した、GIGAキャンパスを構築することにより、学生間のコミュニケーションを促します。</p>
+						<a href="#"></a>
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						
+						<h3>Expected result</h3>
+						<p>ITやテクノロジーを駆使した問題解決力の向上、文系分野の研究においてのテクノロジーの有効活用が期待できます。</p>
+						<a href="#"></a>
+					</div>
+				</div>
+				<!-- /about -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /About -->
+
+
+	<!-- Portfolio -->
+	<div id="portfolio" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">完成予想図</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/10430011702.jpeg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>GIGA campus</span>
+						<h3>A whole new campus</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work1.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/th_IMG_4192.jpeg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Izumi</span>
+						<h3>Current Izumi campus</h3>
+						<div class="work-link">
+							<a href="https://www.google.co.jp/maps/@35.6704615,139.6459359,15z"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work2.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/104300117022.jpeg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Surugadai</span>
+						<h3>Current Surugadai campus</h3>
+						<div class="work-link">
+							<a href="https://www.google.co.jp/maps/@35.6972422,139.7593459,15z"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work3.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/なかの２.jpeg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Nakano</span>
+						<h3>Current Nakano campus</h3>
+						<div class="work-link">
+							<a href="https://www.google.co.jp/maps/@35.7068291,139.6314941,15z"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work4.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/ikuta.jpeg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Ikuta</span>
+						<h3>Current Ikuta campus</h3>
+						<div class="work-link">
+							<a href="https://www.google.co.jp/maps/@35.6128543,139.5469382,15z"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work5.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/meijiro.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Character</span>
+						<h3>Carrent Meiji's character</h3>
+						<div class="work-link">
+							<a href="https://www.google.co.jp/maps/@35.61285,139.5469382,15z"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work6.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Portfolio -->
+
+	<!-- Service -->
+	<div id="service" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Advantages</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-diamond"></i>
+						<h3>文理融合人材の創出</h3>
+						<p>私たちは文理融合人材を、GIGAキャンパスから創出いたします。</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-rocket"></i>
+						<h3>21世紀の先駆者</h3>
+						<p>テクノロジーに精通した文系人材、文系クラスの履修から優秀な理系人材を育成し、21世紀のリーダー候補を創出します。</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-cogs"></i>
+						<h3>定期的な合同イベントの開催</h3>
+						<p>他学部履修だけでなく、合同セミナー、ゼミナール研究などでの積極的な交流を促します。</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Service -->
+
+
+	<!-- Why Choose Us -->
+	<div id="features" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- why choose us content -->
+				<div class="col-md-6">
+					<div class="section-header">
+						<h2 class="title">Flow of GIGA Project</h2>
+					</div>
+					<p>現在4つのキャンパスがある明治大学、GIGAキャンパスの集結には7年がかかる予定です。</p>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>駿河台と和泉キャンパスの合体 2022年 8月</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>中野キャンパスの学部、GIGAへ移動 2025年 3月</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>理工学部GIGAへの移動 2025年 夏季休暇中予定 </p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>農学部、黒川農場GIGAへの移転 2029年中</p>
+					</div>
+				</div>
+				<!-- /why choose us content -->
+
+				<!-- About slider -->
+				<div class="col-md-6">
+					<div id="about-slider" class="owl-carousel owl-theme">
+						<img class="img-responsive" src="./img/10430011702.jpeg" alt="">
+						<img class="img-responsive" src="./img/th_IMG_4192.jpeg" alt="">
+					</div>
+				</div>
+				<!-- /About slider -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Why Choose Us -->
+
+
+	
+
+
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer logo -->
+					<div class="footer-logo">
+						<a href="index.html"><img src="img/logomeiji.png" alt="logo"></a>
+					</div>
+					<!-- /footer logo -->
+
+					<!-- footer follow -->
+					<ul class="footer-follow">
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+					<!-- /footer follow -->
+
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+					</div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="pagetop">
+	    <img src="totopm.png" alt="">
+	</div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
